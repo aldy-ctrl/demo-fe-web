@@ -1,28 +1,31 @@
 <template>
-  <NavBar />
+  <!-- <NavBar /> -->
+  <SignUp />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
+// import NavBar from "./components/NavBar.vue";
 // import HelloWorld from "./components/HelloWorld.vue";
+import SignUp from "./pages/SignUp/SignUp.vue"
 
 export default {
   name: "App",
   components: {
     // HelloWorld,
-    NavBar,
+    // NavBar,
+    SignUp
   },
 };
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 </style>
